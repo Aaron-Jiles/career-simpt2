@@ -33,12 +33,25 @@ footer img
       bottom: 0%;
       right: 0%;
     }
-  /* home page stlye*/
 
-  #body 
+  /* universal style */
+ .submit :hover
   {
-    margin-top: 0%;background-color: red;
+    border-style: dashed;
+    color: red;
   }
+ 
+  #nav1 :hover
+    {
+      border-style: dashed;
+      color: red;
+    }
+  
+  
+  /* home page stlye*/
+  .html1 {margin: 0%}
+
+#body {background-color: red;}
 
 .H 
   { 
@@ -103,7 +116,9 @@ h1 {text-align: center;}
 .div2 {
   grid-row: 2;
 }
+
 /*portfolio page style */
+
 .body3 {background-color: blueviolet;
 
   }
@@ -148,12 +163,13 @@ textarea
 
   }
 
-#comments {display: grid;
-grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(1, 1fr);
-grid-column: 1;
-grid-row: ;}
+form {
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(1, 1fr);
+  }
 
-#comments-box
-  {grid-column: 1;
-  grid-row: 2;
+.submit button 
+  {
+   background-color: gold;
   }
