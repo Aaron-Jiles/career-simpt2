@@ -56,8 +56,8 @@ footer img
   { 
     background-color: red;
   display: grid;
-  grid-template-columns: repeat(2, 2fr); 
-  grid-template-rows: repeat(3, 0fr); 
+  grid-template-columns: repeat(3, 2fr); 
+  grid-template-rows: repeat(2, 0fr); 
   font-family: cursive; font-size: 1.5rem;
   top: 0%;
   }
@@ -65,15 +65,17 @@ footer img
 .H {grid-column: 1;
 grid-row: 4;}
 
+
 #p 
   {
     grid-column: 1;
     grid-row: 1;
   }
 
-#p1 
+#P1 
   {
-    grid-column:1;
+    grid-column: 1;
+    grid-row: 2;
       }
 
 #p2 
@@ -81,8 +83,17 @@ grid-row: 4;}
     grid-column: 2;
     grid-row: 3;
   }
-
-#img {
+#p3
+{ 
+  position: absolute;
+  bottom:50%;
+  right: 50%;
+}
+#p4 {
+  position: absolute;
+  bottom: 40%;
+}
+#img {grid-column: 3;
     width: 250px; 
   float: right;}
 
