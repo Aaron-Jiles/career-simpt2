@@ -1,4 +1,4 @@
-/*header(persistent) style*/
+  /*header(persistent) style*/
 #nav1 
   { color: blue;
     text-align: right;
@@ -11,7 +11,7 @@
   {
     position:sticky; 
     top: 5px;
-    display: grid;
+  display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 0fr);
     background-color: aqua;
@@ -34,7 +34,6 @@ footer img
       right: 0%;
     }
 
-  /* universal style */
  .submit :hover
   {
     border-style: dashed;
@@ -49,19 +48,22 @@ footer img
   
   
   /* home page stlye*/
-  .html1 {margin: 0%}
+.html1 {margin: 0%}
 
 #body {background-color: red;}
 
 .H 
   { 
     background-color: red;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr); 
-    grid-template-rows: repeat(3, 0fr); 
-    font-family: cursive; font-size: 1.5rem;
-    top: 0%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr); 
+  grid-template-rows: repeat(3, 0fr); 
+  font-family: cursive; font-size: 1.5rem;
+  top: 0%;
   }
+
+.H {grid-column: 1;
+grid-row: 4;}
 
 #p 
   {
@@ -72,7 +74,7 @@ footer img
 #p1 
   {
     grid-column:1;
-  }
+      }
 
 #p2 
   {
@@ -81,7 +83,7 @@ footer img
   }
 
 #img {
-  width: 250px; 
+    width: 250px; 
   float: right;}
 
 /* find out how to put the words in a column*/
