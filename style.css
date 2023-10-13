@@ -164,6 +164,7 @@ textarea
   }
 
 form {
+  font-family: cursive;
   position: absolute;
   top: 74%;
   display: grid;
@@ -180,4 +181,8 @@ button
     width: 15rem;
     position: absolute;
     right: 60%;
+  }
+
+  select {
+    background-color: gold;
   }
